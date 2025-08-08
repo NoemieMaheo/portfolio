@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #222; color: white; padding: 2rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    section { max-width: 900px; margin: auto; padding: 2rem; }
+    .projet { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+    footer { text-align: center; padding: 1rem; background: #222; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jean Dupont</h1>
+    <p>Développeur Web & Designer</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Passionné par le web, je crée des sites modernes et performants...</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <div class="projet">
+      <h3>Projet 1</h3>
+      <p>Description du projet...</p>
+    </div>
+    <div class="projet">
+      <h3>Projet 2</h3>
+      <p>Description du projet...</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:jean.dupont@email.com">jean.dupont@email.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jean Dupont</p>
+  </footer>
+</body>
+</html>
